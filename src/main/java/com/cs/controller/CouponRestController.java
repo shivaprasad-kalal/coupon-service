@@ -33,7 +33,7 @@ public class CouponRestController {
 
 	@GetMapping("/coupons")
 	public List<Coupon> getAllCoupons() {
-
+		System.out.println("getAllCoupons() method");
 		return repo.findAll();
 	}
 
