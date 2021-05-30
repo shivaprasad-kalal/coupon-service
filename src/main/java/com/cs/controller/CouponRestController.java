@@ -15,7 +15,7 @@ import com.cs.repository.CouponRepo;
 
 @RestController
 @RequestMapping("/couponapi")
-public class CouponRestController {
+public  CouponRestController {
 	@Autowired
 	private CouponRepo repo;
 
